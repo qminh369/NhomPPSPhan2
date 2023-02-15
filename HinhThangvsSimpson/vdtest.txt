@@ -1,0 +1,15 @@
+simpson 
+n = 10
+a = 0
+b = 1
+f(x) = 1 / (1+x)
+
+eps = 0.5e-4
+
+
+
+hinh thang
+n = 10
+a = 1
+b = 2
+f(x) = sqrt(x)
