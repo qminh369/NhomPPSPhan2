@@ -32,7 +32,7 @@ def simpson(A):
     
 def simpson_error():
     m = max(f, 4)
-    print('Sai so cua cong thuc hinh thang: ', m / 180 * (b-a) * (h**4))
+    print('Sai so cua cong thuc simpson: ', m / 180 * (b-a) * (h**4))
     
 def simpson_intervals():
     m = max(f, 4)

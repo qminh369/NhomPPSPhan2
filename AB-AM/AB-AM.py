@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 def f(x, y):
-    return x**2 + y**2
-
+    # return x**2 + y**2
+    return (x + 2*y) / (x**2 + 2 * y**2)
 def AB_AM(x0, y0, xf, n):
     h = (xf - x0) / (n - 1)
     x= np.linspace(x0, xf, n)
@@ -34,5 +34,15 @@ if __name__ == '__main__':
     y0 = 0
     xf = 1 
     n = 11
+    
+    x0 = 0
+    y0 = 1
+    xf = 3
+    n = 4
+    
+    x0 = 0
+    y0 = 1
+    xf = 3
+    n = 31
     AB_AM(x0, y0, xf, n)
      
