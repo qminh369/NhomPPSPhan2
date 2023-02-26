@@ -1,0 +1,25 @@
+arctanx = integral(1 / 1 + x^2)
+
+8 chu so dang tin sau dau phay
+tinh arctan3
+
+-> dung simpson 
+
+so khoang chia can thiet : n = 240 khi eps = 1e-8
+
+Nhap ham f(x): 1 / (1 + x**2)
+Nhap khoang lay tich phan: 0 3
+
+################################################
+
+arcsinx = integral(1 / sqrt(1 - x^2))
+
+8 chu so dang tin sau dau phay
+tinh arcsin0.65
+
+-> dung simpson 
+
+so khoang chia can thiet : n = 78 khi eps = 1e-8
+
+Nhap ham f(x): 1 / sqrt(1 - x^2)
+Nhap khoang lay tich phan: 0 0.65

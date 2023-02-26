@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import math
 
 def F(x, y):
-    return x + y
-
+    # return x + y
+    # return -2*x + y
+    return x - 2*y
 def RK1(x0, X, y0, N):
     result = []
     h = (X-x0) / (N-1)
@@ -58,6 +59,17 @@ if __name__ == "__main__":
     y0 = 1
     N = 6
     X = 0.5
+
+    
+    x0 = 3
+    y0 = 1
+    N = 30
+    X = 6
+    
+    x0 = 3
+    y0 = -0.5
+    N = 30
+    X = 6
     
     rk1 = RK1(x0, X, y0, N)
     rk2 = RK2(x0, X, y0, N)
